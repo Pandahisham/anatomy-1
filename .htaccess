@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+	Options +Indexes
+    RewriteEngine on
+	RewriteBase /
+	RewriteCond %{HTTP_HOST} ^mysite.com$ [NC]
+    RewriteCond $1 !^(index\.php|images|photos|robots\.txt|css|js|favicon\.png)
+    RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>  
