@@ -1,0 +1,24 @@
+.list { list-style-type: none; }
+
+.title { overflow: auto; }
+#sm-title { float: left; width: 500px; }
+#quiz_info { float: right; padding: 15px; font-size: 12px; background-color: #EEE; margin: 15px 5px 0 0; line-height: 14px; width: 180px; }
+#quiz_info .score { font-size: 16px; font-weight: bold; margin-bottom: 10px; color: #888; }
+#quiz_info .time { font-size: 14px; margin-bottom: 5px; color: #888; }
+#quiz_q { float: left; width: 400px; margin: 15px 25px 0 5px; min-height: 250px; }
+#quiz_q .genBtn { float: right; margin-top: 15px; margin-left: 10px; }
+#quiz_a { margin: 15px 0 0 -40px; list-style-type: none; }
+#quiz_a li { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; margin-bottom: 3px; padding-bottom: 2px; }
+#quiz_a .wrong-bg { background-color: #CC9999; }
+#quiz_a .correct-bg { background-color: #99CC99; }
+.quiz_links { line-height: 16px; margin-top: 10px; }
+#btnNext { display: none; }
+#loader { display: none; float: right; margin-top: 15px; width: 20px; height: 20px; }
+.filters { float: right; margin: 10px 0 0 0; width: 212px; }
+.filters .genBtn { float: right; margin: 5px 9px 0 0; }
+.filters .genInput { width: 100px; }
+.filters #keywords { width: 193px; margin-bottom: 5px; }
+#ranks { float: right; font-size: 10px; color: #000; font-weight: normal; }
+#ranks .star { cursor: pointer; }
+#star_loader { display: none; float: right; width: 15px; height: 15px; }
+#start { display: none; }

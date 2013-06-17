@@ -1,0 +1,69 @@
+html, body { margin: 0; background-color: #FFF; font-family: "Trebuchet MS", Arial, Verdana; font-size: 12px; color: #000; }
+body a { outline: none; }
+
+/* CLASSES */
+.shadow { -moz-box-shadow: 0px 0px 3px #999; -webkit-box-shadow: 0px 0px 3px #999; box-shadow: 0px 0px 3px #999; }
+.shadow-big { -moz-box-shadow: 0px 0px 10px #999; -webkit-box-shadow: 0px 0px 10px #999; box-shadow: 0px 0px 10px #999;  }
+.shadow-off { -moz-box-shadow: 3px 3px 3px #999; -webkit-box-shadow: 3px 3px 3px #999; box-shadow: 3px 3px 3px #999; }
+.round { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.round-big { -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;  }
+.float-l { float: left; }
+.float-r { float: right; }
+.clear { clear: both; }
+.title { font-size: 16px; color: #6699CC; font-weight: bold; margin: 0 0 5px 0; padding-bottom: 5px; border-bottom: 1px solid #EEE; }
+
+/** Front Page **/
+.home-bubble { float: left; margin: 0 50px 0 50px; width: 350px; min-height: 300px; border: 1px solid #DDD; padding: 10px; }
+.home-bubble .form { margin-top: 15px; }
+.home-option { float: left; margin: 0 25px 25px 25px; width: 200px; min-height: 150px; border: 1px solid #DDD; padding: 10px; }
+.home-option .info { min-height: 80px; }
+.home-option .button { float: right; font-size: 16px; padding: 5px 10px; color: #888; background-color: #EEE; text-decoration: none; }
+
+/** Scorecard **/
+#scores { margin-top: 10px; }
+#scores td { padding: 4px; }
+#scores .head td { border-bottom: 1px solid #DDD; padding-bottom: 3px; text-align: center; }
+#scores .even { background-color: #EEE; }
+
+/** Global Template **/
+#top-nav { width: 100%; height: 20px; border-bottom: 2px solid #DDD; text-align: right; padding-top: 4px; font-weight: bold; }
+#galen-title { float: left; width: 500px; height: 100px; margin-top: 15px; }
+#galen-title a { font-size: 21px; color: #000; text-decoration: none; }
+.container { width: 980px; margin: 0 auto; }
+#content { width: 650px; margin: 0 auto; }
+#footer { color: #BBB; text-align: center; width: 100%; margin-top: 50px; }
+#footer a { color: #999; text-decoration: none; }
+#footer a:hover { text-decoration: underline; }
+#ulinks { margin: 0 0 0 -40px; }
+#ulinks li { list-style: none; display: inline-block; padding: 0 10px; }
+
+.genInput { padding: 4px; font-size: 12px; color: #666; border-width: 1px 2px 2px 1px; border-color: #BBB; border-style: solid; font-family: Arial, Verdana; }
+.genInput:focus { border-color: #888; }
+.genBtn { background-color: #6699CC; color: #FFF; padding: 4px 6px; font-size: 12px; border: 1px solid #336699; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.genBtn:hover { background: -webkit-gradient(linear, left top, left bottom, from(#6699CC), to(#336699)); background: -moz-linear-gradient(top,  #6699CC,  #336699); -moz-box-shadow: 0px 1px 1px #999; -webkit-box-shadow: 0px 1px 1px #999; box-shadow: 0px 1px 1px #999;}
+.ex { font-size: 10px; margin: 0; font-style: italic; }
+
+#title { display: none; position: absolute; z-index: 5; padding: 3px 6px; background-color: #333; font-size: 11px; color: #FFF; }
+#title a { color: #FFF; text-decoration: none; }
+
+/* Popup Box */
+#popup { position: fixed; z-index: 99; display: none; }
+#popup .vborder { width: 10px; height: auto; background-image: url('../images/b.png'); }
+#popup .hborder { width: auto; height: 10px; background-image: url('../images/b.png'); }
+#popup .tlcorner { width: 10px; height: 10px; background-image: url('../images/tl.png'); }
+#popup .trcorner { width: 10px; height: 10px; background-image: url('../images/tr.png'); }
+#popup .blcorner { width: 10px; height: 10px; background-image: url('../images/bl.png'); }
+#popup .brcorner { width: 10px; height: 10px; background-image: url('../images/br.png'); }
+#pucon { background-color: #FFF; padding: 10px; width: 350px; }
+#puclose { background-color: #FFF; padding: 10px; text-align: center; border-top: 1px solid #BBB; }
+#popup-bg {width: 100%; height: 100%; z-index: 98; position: fixed; top: 0; left: 0; background-color: #FFF; opacity: 0.6; filter: alpha(opacity=60); }
+
+/** Fonts and Links **/
+.blue { color: #6699CC; }
+.red { color: #BD2600; }
+.green { color: #339900; }
+.grey { color: #888; }
+.h4 { font-size: 14px; }
+.h6 { font-size: 11px; }
+.link-c a:link, .link-c a:active, .link-c a:visited { text-decoration: none; color: #336699; }
+.link-c a:hover { text-decoration: underline; }

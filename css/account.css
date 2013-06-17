@@ -1,0 +1,12 @@
+#reg_info { float: left; padding: 15px; font-size: 14px; background-color: #EEE; margin: 15px 0 0 5px; line-height: 18px; width: 200px; }
+#reg_form { float: right; width: 315px; margin: 15px 50px 0 0; }
+#reg_links { float: left; line-height: 16px; margin: 5px 0 0 5px; }
+
+#leftContent { float: left; width: 180px; margin: 15px 0 0 5px; border-right: 1px solid #EEE; min-height: 150px; }
+#leftContent ul { margin: 0 0 0 -40px; }
+#leftContent ul li { list-style: none; }
+#leftContent ul li.selected a { background-color: #EEE; }
+#leftContent ul li a { display: block; padding: 2px 0 2px 4px; }
+
+#rightContent { float: right; width: 435px; margin-top: 15px; }
+#rightContent p.title { margin: 0 0 10px 0; font-size: 14px; color: #000; border-bottom: 0; padding: 0; }
